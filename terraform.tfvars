@@ -1,0 +1,10 @@
+cluster_name="HK-ELASTICCACHE-TEST"
+cluster_engine="memcached"
+node_type="cache.m4.large"
+num_of_nodes=2
+parameter_group_name="default.memcached1.4"
+cluster_port=11211
+az_mode="cross-az"
+tags={
+    "CreatedBy"="Terraform"
+}
